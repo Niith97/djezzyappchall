@@ -14,7 +14,7 @@
     <color name="frutorial_title">#4c4c4c</color>
 
     <!--colors for light mode-->
-    <color name="contentBodyColor">#FCFCFC</color>
+    <color name="contentBodyColor">#DAC8C8</color>
     <color name="contentTextColor">#020000</color>
     <color name="miniTitleColor">#6F6A6A</color>
     <color name="bottomNavigationBackground">#F7F7F7</color>
