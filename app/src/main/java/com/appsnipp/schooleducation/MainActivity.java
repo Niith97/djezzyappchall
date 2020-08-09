@@ -1,5 +1,6 @@
 package com.appsnipp.schooleducation;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -93,19 +94,33 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.newcomer) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_dark_mode) {
+            Intent i = new Intent(this,NewComers.class);
+            startActivity(i);
+        } else if (id == R.id.formation) {
+            Intent i = new Intent(this,Formations.class);
+            startActivity(i);
+        } else if (id == R.id.activities) {
+            Intent i = new Intent(this,DjezzyAcademyActivities.class);
+            startActivity(i);
+        }
+        else if (id == R.id.stage) {
+            Intent i = new Intent(this,EspaceStage.class);
+            startActivity(i);
+        }
+        else if (id == R.id.learner) {
+            Intent i = new Intent(this,EspaceApprentis.class);
+            startActivity(i);
+        }
+        else if (id == R.id.contact) {
+            Intent i = new Intent(this,Contact.class);
+            startActivity(i);
+        }
+        else if (id == R.id.nav_dark_mode) {
             //code for setting dark mode
             //true for dark mode, false for day mode, currently toggling on each click
             DarkModePrefManager darkModePrefManager = new DarkModePrefManager(this);

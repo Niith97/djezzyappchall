@@ -5,21 +5,32 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/newcomer"
+            android:icon="@drawable/group"
+            android:title="Newcomers" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/formation"
+            android:icon="@drawable/register"
+            android:title="Mes formations" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/activities"
+            android:icon="@drawable/interest"
+            android:title="Activités Djezzy Academy" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/stage"
+            android:icon="@drawable/internship"
+            android:title="Espace stage"/>
+        <item
+            android:id="@+id/learner"
+            android:icon="@drawable/learner"
+            android:title="Espace apprentis"/>
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/contactus"
+            android:title="Contact"
+
+            />
+
     </group>
 
     <item android:title="Only Toggle Theme would work">
